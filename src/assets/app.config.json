@@ -1,0 +1,26 @@
+[
+    {
+        "name": "envapp",
+        "version": "1.0.0",
+        "environment": "development",
+        "basehref": "envapp"
+    },
+    {
+        "name": "envapp",
+        "version": "1.0.0",
+        "environment": "test",
+        "basehref": "envapp"
+    },
+    {
+        "name": "envapp",
+        "version": "1.0.0",
+        "environment": "uat",
+        "basehref": "envapp"
+    },
+    {
+        "name": "envapp",
+        "version": "1.0.0",
+        "environment": "production",
+        "basehref": "envapp"
+    }
+]

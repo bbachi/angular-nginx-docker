@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+<div class="tblclas">
+  <h2>Environment Configuration </h2>
+  <table *ngIf="appData" class="table table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Version</th>
+        <th scope="col">Environment</th>
+        <th scope="col">Base HREF</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of appData; let i = index">
+        <th scope="row">{{i}}</th>
+        <td>{{data.name}}</td>
+        <td>{{data.version}}</td>
+        <td>{{data.environment}}</td>
+        <td>{{data.basehref}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
